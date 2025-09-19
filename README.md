@@ -1,10 +1,3 @@
-Technologies Used:
-
-1. React
-2. Tailwind CSS
-
-Build:
-Vite
-
-Web Link:
-[Ayan Institute of Medical Sciences Kabirwala](https://ayaninstitutekabirwala.netlify.app/)
+# Company Website Codebase
+This repository contains the frontend code for [https://ayaninstitutekabirwala.netlify.app/] website.  
+Note: This repo is only for internal use and reference.  
