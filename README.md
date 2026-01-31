@@ -34,4 +34,5 @@ This repository is public for **portfolio and demonstration purposes only**.
 
 ---
 
-&copy; 2026 Ayan Institute Of Medical Sciences Kabirwala. All rights reserved.
+&copy; 2024 Ayan Institute Of Medical Sciences Kabirwala. All rights reserved.
+
