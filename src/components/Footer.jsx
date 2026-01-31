@@ -2,6 +2,7 @@ import data from "../assets/data/data.json";
 import aimsk from "../assets/svg/aimsk-logo.svg";
 import { EnvelopeIcon, PhoneIcon, MapPinIcon } from "@heroicons/react/24/solid";
 import SocialNav from "../components/SocialNav";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,24 +13,18 @@ const Footer = () => {
             <ul className="flex flex-col gap-y-5 ">
               {data.secondaryNav.map(({ content, link }, index) => (
                 <li key={index}>
-                  <a
+                  <Link
                     className="underline hover:text-secondaryColor"
-                    href={link}
+                    to={link}
                   >
                     {content}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
             <div className="flex flex-col gap-y-1 justify-center items-center">
               <p className="text-secondaryColor">Connect With Us</p>
               <SocialNav />
-              <a
-                className="text-secondaryColor cursor-pointer underline hover:text-white"
-                href="https://github.com/ahmedwasim1070"
-              >
-                About-dev
-              </a>
             </div>
             <div className="flex flex-col justify-center items-center text-center gap-y-4">
               <div className="flex flex-row gap-x-5 items-center">

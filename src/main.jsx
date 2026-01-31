@@ -7,10 +7,12 @@ import HomePage from "./pages/HomePage";
 import CoursePage from "./pages/CoursesPage";
 import FeeStructurePage from "./pages/FeeStructurePage";
 import AboutPage from "./pages/AboutPage";
+import ScrollToTop from "./components/ScrollToTop";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
@@ -20,5 +22,5 @@ createRoot(document.getElementById("root")).render(
         </Route>
       </Routes>
     </Router>
-  </StrictMode>
+  </StrictMode>,
 );
